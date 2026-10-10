@@ -1,0 +1,20 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "BGSM.App", "src\BGSM.App\BGSM.App.csproj", "{C8ABF4C0-8AC4-4E4B-B49D-02F5D9C6B001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGSM.Data", "src\BGSM.Data\BGSM.Data.csproj", "{D9ABF4C0-8AC4-4E4B-B49D-02F5D9C6B002}"
+EndProject
+Global
+ GlobalSection(SolutionConfigurationPlatforms) = preSolution
+  Debug|Any CPU = Debug|Any CPU
+  Release|Any CPU = Release|Any CPU
+ EndGlobalSection
+ GlobalSection(ProjectConfigurationPlatforms) = postSolution
+  {C8ABF4C0-8AC4-4E4B-B49D-02F5D9C6B001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {C8ABF4C0-8AC4-4E4B-B49D-02F5D9C6B001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {D9ABF4C0-8AC4-4E4B-B49D-02F5D9C6B002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {D9ABF4C0-8AC4-4E4B-B49D-02F5D9C6B002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ EndGlobalSection
+EndGlobal

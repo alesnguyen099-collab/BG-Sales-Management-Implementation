@@ -1,4 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
- <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows10.0.19041.0</TargetFramework><TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion><UseWinUI>true</UseWinUI><EnableMsixTooling>true</EnableMsixTooling><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
- <ItemGroup><ProjectReference Include="..\BGSM.Data\BGSM.Data.csproj" /><PackageReference Include="Microsoft.WindowsAppSDK" Version="1.6.250205002" /></ItemGroup>
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+    <UseWinUI>true</UseWinUI>
+    <WindowsPackageType>None</WindowsPackageType>
+    <EnableMsixTooling>false</EnableMsixTooling>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BGSM.Data\BGSM.Data.csproj" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.6.250205002" />
+  </ItemGroup>
 </Project>

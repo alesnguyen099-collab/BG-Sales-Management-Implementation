@@ -1,0 +1,7 @@
+{
+  "brand": { "yellow": "#FFDF1B", "black": "#000000", "white": "#FFFFFF" },
+  "semantic": { "background": "#F7F7F5", "surface": "#FFFFFF", "text": "#171717", "border": "#D9D9D6", "accent": "#FFDF1B", "danger": "#B42318", "success": "#067647", "warning": "#B54708", "focus": "#1D4ED8" },
+  "typography": { "fontFamily": "Segoe UI", "xs": 12, "sm": 14, "md": 16, "lg": 20, "xl": 24, "2xl": 28 },
+  "spacing": { "1": 4, "2": 8, "3": 12, "4": 16, "6": 24, "8": 32 },
+  "radius": { "sm": 4, "md": 8, "lg": 12 }
+}
